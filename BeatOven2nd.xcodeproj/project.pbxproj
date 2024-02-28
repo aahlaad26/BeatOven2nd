@@ -13,6 +13,8 @@
 		0F3F2F112B8EE191007AC547 /* AudioPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F102B8EE191007AC547 /* AudioPosts.swift */; };
 		0F3F2F132B8F2F68007AC547 /* TabBar2.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F122B8F2F68007AC547 /* TabBar2.0.swift */; };
 		0F3F2F152B8F3935007AC547 /* ColabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F142B8F3935007AC547 /* ColabView.swift */; };
+		0F3F2F172B8F3E24007AC547 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F162B8F3E24007AC547 /* Groups.swift */; };
+		0F3F2F192B8F4597007AC547 /* TrackLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F182B8F4597007AC547 /* TrackLibraryView.swift */; };
 		0FB120962B8DE8B700F28F32 /* BeatOven2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */; };
 		0FB120982B8DE8B700F28F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120972B8DE8B700F28F32 /* ContentView.swift */; };
 		0FB1209A2B8DE8B800F28F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB120992B8DE8B800F28F32 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		0F3F2F102B8EE191007AC547 /* AudioPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPosts.swift; sourceTree = "<group>"; };
 		0F3F2F122B8F2F68007AC547 /* TabBar2.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar2.0.swift; sourceTree = "<group>"; };
 		0F3F2F142B8F3935007AC547 /* ColabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColabView.swift; sourceTree = "<group>"; };
+		0F3F2F162B8F3E24007AC547 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		0F3F2F182B8F4597007AC547 /* TrackLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLibraryView.swift; sourceTree = "<group>"; };
 		0FB120922B8DE8B700F28F32 /* BeatOven2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatOven2nd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatOven2ndApp.swift; sourceTree = "<group>"; };
 		0FB120972B8DE8B700F28F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 			children = (
 				0F3F2F0C2B8E8106007AC547 /* User.swift */,
 				0F3F2F102B8EE191007AC547 /* AudioPosts.swift */,
+				0F3F2F162B8F3E24007AC547 /* Groups.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				0F3F2F142B8F3935007AC547 /* ColabView.swift */,
+				0F3F2F182B8F4597007AC547 /* TrackLibraryView.swift */,
 			);
 			name = Colab;
 			sourceTree = "<group>";
@@ -251,11 +257,13 @@
 				0FB120B22B8E5DFD00F28F32 /* FeedView.swift in Sources */,
 				0F3F2F132B8F2F68007AC547 /* TabBar2.0.swift in Sources */,
 				0FB120B02B8DEEED00F28F32 /* ProfileView.swift in Sources */,
+				0F3F2F172B8F3E24007AC547 /* Groups.swift in Sources */,
 				0FB120982B8DE8B700F28F32 /* ContentView.swift in Sources */,
 				0FB120962B8DE8B700F28F32 /* BeatOven2ndApp.swift in Sources */,
 				0F3F2F152B8F3935007AC547 /* ColabView.swift in Sources */,
 				0F3F2F0D2B8E8106007AC547 /* User.swift in Sources */,
 				0F3F2F0B2B8E7B44007AC547 /* DiscoverView.swift in Sources */,
+				0F3F2F192B8F4597007AC547 /* TrackLibraryView.swift in Sources */,
 				0FB120AE2B8DEDCA00F28F32 /* MainTabView.swift in Sources */,
 				0FB120B42B8E5E0D00F28F32 /* FeedCell.swift in Sources */,
 				0F3F2F0F2B8E89D1007AC547 /* CurrentProfileView.swift in Sources */,
