@@ -22,7 +22,7 @@ struct MainTabView: View {
                 NavigationView{DiscoverView()}
                     .tabItem { Image(systemName: "magnifyingglass") }
                     .tag(1)
-                Text("Colab")
+                ColabView()
                     .tabItem { Image(systemName: "plus") }
                     .tag(2)
                 Text("Chat")

@@ -45,7 +45,7 @@ struct ColabView: View {
                 .searchable(text: $searchText, prompt: "Search by name...")
             }
             .navigationDestination(for: GroupColab.self) { group in
-                ProfileView(user: group.arrayOfPeople.first!!)
+                TrackLibraryView(group: group)
             }
             .navigationTitle("Colab")
             .navigationBarTitleDisplayMode(.inline)
