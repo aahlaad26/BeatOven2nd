@@ -16,6 +16,7 @@
 		0F3F2F172B8F3E24007AC547 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F162B8F3E24007AC547 /* Groups.swift */; };
 		0F3F2F192B8F4597007AC547 /* TrackLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F182B8F4597007AC547 /* TrackLibraryView.swift */; };
 		0F3F2F1B2B8F49CF007AC547 /* ShareAudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F1A2B8F49CF007AC547 /* ShareAudioFile.swift */; };
+		0F3F2F1E2B8FDC98007AC547 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F1D2B8FDC98007AC547 /* MusicPlayerView.swift */; };
 		0FB120962B8DE8B700F28F32 /* BeatOven2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */; };
 		0FB120982B8DE8B700F28F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120972B8DE8B700F28F32 /* ContentView.swift */; };
 		0FB1209A2B8DE8B800F28F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB120992B8DE8B800F28F32 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		0F3F2F162B8F3E24007AC547 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
 		0F3F2F182B8F4597007AC547 /* TrackLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLibraryView.swift; sourceTree = "<group>"; };
 		0F3F2F1A2B8F49CF007AC547 /* ShareAudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAudioFile.swift; sourceTree = "<group>"; };
+		0F3F2F1D2B8FDC98007AC547 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
 		0FB120922B8DE8B700F28F32 /* BeatOven2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatOven2nd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatOven2ndApp.swift; sourceTree = "<group>"; };
 		0FB120972B8DE8B700F28F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3F2F1C2B8FDC7F007AC547 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				0F3F2F1D2B8FDC98007AC547 /* MusicPlayerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
 		0FB120892B8DE8B700F28F32 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		0FB120942B8DE8B700F28F32 /* BeatOven2nd */ = {
 			isa = PBXGroup;
 			children = (
+				0F3F2F1C2B8FDC7F007AC547 /* Player */,
 				0FB120A72B8DEC3B00F28F32 /* Model */,
 				0FB120A62B8DEC3800F28F32 /* Services */,
 				0FB120A52B8DEC3500F28F32 /* Core */,
@@ -265,6 +276,7 @@
 				0FB120982B8DE8B700F28F32 /* ContentView.swift in Sources */,
 				0FB120962B8DE8B700F28F32 /* BeatOven2ndApp.swift in Sources */,
 				0F3F2F152B8F3935007AC547 /* ColabView.swift in Sources */,
+				0F3F2F1E2B8FDC98007AC547 /* MusicPlayerView.swift in Sources */,
 				0F3F2F0D2B8E8106007AC547 /* User.swift in Sources */,
 				0F3F2F0B2B8E7B44007AC547 /* DiscoverView.swift in Sources */,
 				0F3F2F192B8F4597007AC547 /* TrackLibraryView.swift in Sources */,

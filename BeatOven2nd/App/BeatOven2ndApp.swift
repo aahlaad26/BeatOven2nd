@@ -11,7 +11,7 @@ import SwiftUI
 struct BeatOven2ndApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            ContentView()
         }
     }
 }
