@@ -47,6 +47,9 @@ struct DiscoverView: View {
             }
             .navigationTitle("Discover")
             .navigationBarTitleDisplayMode(.inline)
+            //.navigationBarColor(Color("bg-color"))
+            .background(Color("bg-color"))
+            
         }
     }
 }

@@ -6,7 +6,9 @@
 //
 
 import Foundation
-
+import SwiftUI
+import Firebase
+let db = Firestore.firestore()
 struct AudioPost: Identifiable,Codable{
     let id:String
     let ownerUID:String

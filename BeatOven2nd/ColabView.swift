@@ -49,7 +49,10 @@ struct ColabView: View {
             }
             .navigationTitle("Colab")
             .navigationBarTitleDisplayMode(.inline)
+            .background(Color("bg-color"))
+            .navigationBarColor(Color("bg-color"))
         }
+        
     }
 
 }
@@ -57,3 +60,12 @@ struct ColabView: View {
 #Preview {
     ColabView()
 }
+//extension View {
+//    @available(iOS 14, *)
+//    func navigationBarColor(_ color: Color) -> some View {
+//        let uiColor = UIColor(color)
+//        UINavigationBar.appearance().barTintColor = uiColor
+//
+//        return self
+//    }
+//}

@@ -67,7 +67,7 @@ struct FeedCell: View {
                 
                 }
                 .padding()
-                .background(Color(red: 0.93, green: 0.93, blue: 0.93))
+                .background(Color("bg-color"))
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 
                 .frame(width: 350,alignment: .leading)
@@ -91,7 +91,7 @@ struct FeedCell: View {
             
         }.frame(width: UIScreen.main.bounds.width-50)
         .padding()
-        .background(Color.white)
+        .background(Color("cell-color"))
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .shadow( radius: 5) // Add this line
     }

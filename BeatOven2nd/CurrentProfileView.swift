@@ -136,6 +136,8 @@ struct CurrentProfileView: View {
                         
                     }
                 }
+                .navigationBarColor(Color("bg-color"))
+                .background(Color("bg-color"))
         }
     }
     func timeSinceDate(date: Date) -> String {

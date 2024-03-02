@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
-
-struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+import Firebase
+class OurData: ObservableObject{
+    @Published public var audioPosts = [AudioPost]()
+    func loadAudioPosts(){
+        Firestore.firestore().collection("songs").getDocuments{(snapshot,error) in
+            if error == nil{
+                print(snapshot)
+            }else{
+                print(error)            }
+        }
     }
-}
-
-#Preview {
-    SwiftUIView()
 }

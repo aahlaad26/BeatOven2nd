@@ -57,7 +57,8 @@ struct FeedView: View {
                         FeedCell(audioPost: post)
                     }
                 }
-            }.navigationTitle("BeatOven")
+            }
+            .navigationTitle("BeatOven")
 //                .navigationBarTitleDisplayMode(.inline)
                 .toolbar{
 //                    ToolbarItem(placement: .navigationBarLeading){
@@ -72,6 +73,8 @@ struct FeedView: View {
                         
                     }
                 }
+                .navigationBarColor(Color("bg-color"))
+                .background(Color("bg-color"))
         }
     }
 }

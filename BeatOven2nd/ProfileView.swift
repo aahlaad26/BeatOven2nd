@@ -159,6 +159,8 @@ struct ProfileView: View {
                 }
             }.navigationTitle("Profile")
                 .navigationBarTitleDisplayMode(.inline)
+                .navigationBarColor(Color("bg-color"))
+                .background(Color("bg-color"))
 
         //}
         

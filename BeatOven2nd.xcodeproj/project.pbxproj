@@ -30,6 +30,7 @@
 		0F3F2F352B90355E007AC547 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 0F3F2F342B90355E007AC547 /* FirebaseInstallations */; };
 		0F3F2F372B90355E007AC547 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0F3F2F362B90355E007AC547 /* FirebaseStorage */; };
 		0F3F2F3B2B903A2A007AC547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3F2F3A2B903A2A007AC547 /* GoogleService-Info.plist */; };
+		0F3F2F592B908685007AC547 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3F2F582B908685007AC547 /* File.swift */; };
 		0FB120962B8DE8B700F28F32 /* BeatOven2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */; };
 		0FB120982B8DE8B700F28F32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB120972B8DE8B700F28F32 /* ContentView.swift */; };
 		0FB1209A2B8DE8B800F28F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB120992B8DE8B800F28F32 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		0F3F2F1A2B8F49CF007AC547 /* ShareAudioFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareAudioFile.swift; sourceTree = "<group>"; };
 		0F3F2F1D2B8FDC98007AC547 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
 		0F3F2F3A2B903A2A007AC547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F3F2F582B908685007AC547 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		0FB120922B8DE8B700F28F32 /* BeatOven2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatOven2nd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB120952B8DE8B700F28F32 /* BeatOven2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatOven2ndApp.swift; sourceTree = "<group>"; };
 		0FB120972B8DE8B700F28F32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		0FB120A32B8DEC2A00F28F32 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0F3F2F582B908685007AC547 /* File.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				0F3F2F152B8F3935007AC547 /* ColabView.swift in Sources */,
 				0F3F2F1E2B8FDC98007AC547 /* MusicPlayerView.swift in Sources */,
 				0F3F2F0D2B8E8106007AC547 /* User.swift in Sources */,
+				0F3F2F592B908685007AC547 /* File.swift in Sources */,
 				0F3F2F0B2B8E7B44007AC547 /* DiscoverView.swift in Sources */,
 				0F3F2F192B8F4597007AC547 /* TrackLibraryView.swift in Sources */,
 				0FB120AE2B8DEDCA00F28F32 /* MainTabView.swift in Sources */,
